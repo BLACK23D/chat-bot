@@ -1,0 +1,94 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: linear-gradient(to right, #070c08, #2c3e50);
+}
+
+.wrapper {
+    width: 500px;
+    margin: 50px auto;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.title {
+    background-color: #002c49;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.form {
+    padding: 20px;
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+.inbox {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.bot-inbox {
+    justify-content: flex-start;
+}
+
+.user-inbox {
+    justify-content: flex-end;
+}
+
+.icon {
+    background-color: #000000;
+    color: #fff;
+    padding: 5px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.msg-header {
+    max-width: 80%;
+    padding: 6px;
+    border-radius: 10px;
+    background-color: #b3e7ff;
+}
+
+.typing-field {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px;
+    border-top: 1px solid #ecf0f1;
+}
+
+.input-data {
+    width: 100%;
+    display: flex;
+}
+
+#data {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}
+
+#send-btn {
+    background-color: #000305;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+  
+}
+
+#send-btn:hover {
+    background-color: #0062a3;
+}
